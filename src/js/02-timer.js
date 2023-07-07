@@ -55,7 +55,7 @@ function dateChangind(date) {
 selectors.btnStart.addEventListener('click', startTimer);
 
 function startTimer() {
-  timerId = setInterval(clock, 1000);
+  const timerId = setInterval(clock, 1000);
 }
 
 function clock() {
